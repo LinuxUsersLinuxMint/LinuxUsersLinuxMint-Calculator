@@ -11,7 +11,7 @@ Python Calcutator All Rights Reserved under the GPL(General Public License).
 Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
 A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
 print("*********************************************************************")
-print("*** Welcome to LinuxUsersLinuxMint-Calcutator 0.3.5 Program       ***")
+print("*** Welcome to LinuxUsersLinuxMint-Calcutator 2.1 Program       ***")
 print("""*** Options:                                                      ***
 ***                                                               ***
 *** Enter the Command you want to choose...                       ***
@@ -86,7 +86,7 @@ elif command=="git-address":
 elif command=="web-site":
      print("https://linuxuserslinuxmint.github.io")
 elif command=="ver":
-     print("Version: 0.3.5 (Last Updated on Jan 1, 2025, 10:27)")
+     print("Version: 2.1 (Last Updated on Jan 5, 2025, 9:09)")
 elif command=="licence":
      print("This Software is protected under the GPL2 license")
 elif command=="Thank":
