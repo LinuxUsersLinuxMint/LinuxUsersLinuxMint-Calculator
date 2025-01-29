@@ -122,4 +122,4 @@ def all_math_operations(optDialog,first_opt_dialog,second_opt_dialog,third_opt_d
     elif select_func == mod_options_one or select_func == mod_options_two or select_func == mod_options_three or select_func == mod_options_four or select_func == mod_options_five:
         Mod(number_one,number_two,resdialog)
     else:
-        error_msg(errdg)
+        error_msg(errdg,"","")

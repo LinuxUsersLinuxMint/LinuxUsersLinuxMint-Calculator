@@ -11,7 +11,7 @@ LinuxUsersLinuxMint Calcutator All Rights Reserved under the GPL(General Public 
 Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
 A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
 print("*********************************************************************")
-print("*** LinuxUsersLinuxMint-Calcutator 2.1 Programına Hoşgeldiniz   ***")
+print("*** LinuxUsersLinuxMint-Calcutator 2.2 Programına Hoşgeldiniz   ***")
 print("""*** Seçenekler:                                                   ***
 ***                                                               ***
 *** Seçmek istediğiniz Komutu Giriniz...                          ***
@@ -85,10 +85,10 @@ elif command=="git-address":
 elif command=="web-site":
      print("linuxuserslinuxmint.github.io")
 elif command=="ver":
-     print("Sürüm: 2.1 (Son Güncellenme Tarihi 1 Ocak , 2025 , 20:27)")
+     print("Sürüm: 2.2 (Son Güncellenme Tarihi 29 Ocak , 2025 , 15:12)")
 elif command=="licence":
      print("Bu Yazılım GPL2 lisansı kapsamında korunmaktadır.")
 elif command=="Thank":
-     print("Python-Calcutator'u Kullandığınız için Teşekkür ederim. ")
+     print("LinuxUsersLinuxMint-Calcutator'u Kullandığınız için Teşekkür ederim. ")
 else:
      error_msg(error_dialog)
