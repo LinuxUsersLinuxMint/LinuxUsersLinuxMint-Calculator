@@ -8,8 +8,8 @@ error_dialog = "Invalid Process/Command!"
 """Copyright© 2023-2025 LinuxUsersLinuxMint
 Python Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
 Python Calcutator All Rights Reserved under the GPL(General Public License).
-Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
-A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
+Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
+A Copy of This Software is published on GitHub To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
 print("*********************************************************************")
 print("*** Welcome to LinuxUsersLinuxMint-Calcutator 2.2 Program       ***")
 print("""*** Options:                                                      ***

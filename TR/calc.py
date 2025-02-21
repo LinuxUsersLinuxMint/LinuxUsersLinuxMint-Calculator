@@ -8,8 +8,8 @@ error_dialog = "Geçersiz İşlem/Komut!"
 """ Copyright© 2023-2025 LinuxUsersLinuxMint
 LinuxUsersLinuxMint Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
 LinuxUsersLinuxMint Calcutator All Rights Reserved under the GPL(General Public License).
-Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
-A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
+Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
+A Copy of This Software is published on GitHub To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
 print("*********************************************************************")
 print("*** LinuxUsersLinuxMint-Calcutator 2.2 Programına Hoşgeldiniz   ***")
 print("""*** Seçenekler:                                                   ***
