@@ -2,10 +2,10 @@
 
 TR:
 
-* "calc> _" arayüzüyle hesaplama yapmak
+* Daha gelişmiş bir arayüz ile sunulan bir hesap makinesi
 * Sürekli güncellenen ve gelişmeyi hedefleyen bir hesap makinesi 
 
 EN:
 
-* Performing calculations with the "calc>_" interface
+* A calculator with a more advanced interface
 * A calculator that is constantly updated and aims to improve
