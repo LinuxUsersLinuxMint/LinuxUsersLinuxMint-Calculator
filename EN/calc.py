@@ -6,12 +6,12 @@ init(autoreset=True)
 process=int(0)
 error_dialog = "Invalid Process/Command!"
 """Copyright© 2023-2025 LinuxUsersLinuxMint
-Python Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
-Python Calcutator All Rights Reserved under the GPL(General Public License).
-Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
-A Copy of This Software is published on GitHub To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
+LinuxUsersLinuxMint Calculator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
+LinuxUsersLinuxMint Calculator All Rights Reserved under the GPL(General Public License).
+Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint Calculator
+A Copy of This Software is published on GitHub To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint Calculator """
 print("*********************************************************************")
-print("*** Welcome to LinuxUsersLinuxMint-Calcutator 2.2 Program       ***")
+print("*** Welcome to LinuxUsersLinuxMint Calculator 2.2 Program       ***")
 print("""*** Options:                                                      ***
 ***                                                               ***
 *** Enter the Command you want to choose...                       ***
@@ -27,7 +27,7 @@ print("""*** Options:                                                      ***
 *********************************************************************""")
 command=str(input(Fore.LIGHTBLUE_EX +'calc> '))
 os.system("clear")
-about="Python Calcutator CLI(Command Line Interface) LICENCE=GPL2"
+about="Python Calculator CLI(Command Line Interface) LICENCE=GPL2"
 selected_transaction=str(Fore.LIGHTBLUE_EX+"None")
 if command=="calc":
    print("""*** Transactions you can enter:     ***
@@ -79,10 +79,10 @@ elif command=="exit":
      else:
           error_msg(error_dialog)
 elif command=="help":
-     print("LinuxUsersLinuxMint-Calcutator Help")
+     print("LinuxUsersLinuxMint-Calculator Help")
      print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence , Thank")
 elif command=="git-address":
-     print("Github Link: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator")
+     print("Github Link: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calculator")
 elif command=="web-site":
      print("https://linuxuserslinuxmint.github.io")
 elif command=="ver":
@@ -90,6 +90,6 @@ elif command=="ver":
 elif command=="licence":
      print("This Software is protected under the GPL2 license")
 elif command=="Thank":
-     print("Thank You for Using LinuxUsersLinuxMint-Calcutator.")
+     print("Thank You for Using LinuxUsersLinuxMint-Calculator.")
 else:
      error_msg(error_dialog)

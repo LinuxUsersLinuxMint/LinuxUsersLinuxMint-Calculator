@@ -6,12 +6,12 @@ init(autoreset=True)
 islem=int(0)
 error_dialog = "Geçersiz İşlem/Komut!"
 """ Copyright© 2023-2025 LinuxUsersLinuxMint
-LinuxUsersLinuxMint Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
-LinuxUsersLinuxMint Calcutator All Rights Reserved under the GPL(General Public License).
-Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
-A Copy of This Software is published on GitHub To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
+LinuxUsersLinuxMint Calculator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
+LinuxUsersLinuxMint Calculator All Rights Reserved under the GPL(General Public License).
+Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calculator
+A Copy of This Software is published on GitHub To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calculator """
 print("*********************************************************************")
-print("*** LinuxUsersLinuxMint-Calcutator 2.2 Programına Hoşgeldiniz   ***")
+print("*** LinuxUsersLinuxMint-Calculator 2.2 Programına Hoşgeldiniz   ***")
 print("""*** Seçenekler:                                                   ***
 ***                                                               ***
 *** Seçmek istediğiniz Komutu Giriniz...                          ***
@@ -78,10 +78,10 @@ elif command=="exit":
      else:
           error_msg(error_dialog)
 elif command=="help":
-     print("LinuxUsersLinuxMint-Calcutator Help")
+     print("LinuxUsersLinuxMint-Calculator Help")
      print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence , Thank")
 elif command=="git-address":
-     print("Github Link: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator")
+     print("Github Link: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calculator")
 elif command=="web-site":
      print("linuxuserslinuxmint.github.io")
 elif command=="ver":
@@ -89,6 +89,6 @@ elif command=="ver":
 elif command=="licence":
      print("Bu Yazılım GPL2 lisansı kapsamında korunmaktadır.")
 elif command=="Thank":
-     print("LinuxUsersLinuxMint-Calcutator'u Kullandığınız için Teşekkür ederim. ")
+     print("LinuxUsersLinuxMint-Calculator'u Kullandığınız için Teşekkür ederim. ")
 else:
      error_msg(error_dialog)

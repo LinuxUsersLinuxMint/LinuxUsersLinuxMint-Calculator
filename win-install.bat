@@ -1,11 +1,11 @@
 @echo off
-@title=Python-Calcutator Setup
+@title=LinuxUsersLinuxMint-Calculator Setup
 :m
 cls
-echo Python-Calcutator Setup
+echo LinuxUsersLinuxMint-Calculator Setup
 echo Which Version Do You Want To Install?
-echo 1.Python-Calcutator-TR
-echo 2.Python-Calcutator-EN
+echo 1.LinuxUsersLinuxMint-Calculator-TR
+echo 2.LinuxUsersLinuxMint-Calculator-EN
 echo Choose:
 set input=nothing
 set/p input=Choose:
@@ -13,14 +13,14 @@ if %input%==1 goto one
 if %input%==2 goto two
 goto m
 :one
-echo Python-Calcutator-TR Version will be downloaded.
+echo LinuxUsersLinuxMint-Calculator-TR Version will be downloaded.
 pause
 copy TR/calc C:\Users\%users%\
 pause
 exit
 goto m
 :two
-echo Python-Calcutator-EN Version will be downloaded.
+echo LinuxUsersLinuxMint-Calculator-EN Version will be downloaded.
 pause
 copy EN/calc C:\Users\%users%\
 pause
